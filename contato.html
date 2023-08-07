@@ -4,15 +4,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <title>Contato | Bikcraft</title>
     <meta name="description" content="Contato." />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preload" href="./css/style.min.css" as="style" />
+    <link rel="stylesheet" href="./css/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
 
   <body id="contato">
@@ -82,8 +87,7 @@
                 type="text"
                 id="telefone"
                 name="telefone"
-                placeholder="(00) 1234-5678"
-              />
+                placeholder="(00) 1234-5678" />
             </div>
 
             <div class="col-2">
@@ -92,8 +96,7 @@
                 type="email"
                 id="email"
                 name="email"
-                placeholder="contato@email.com"
-              />
+                placeholder="contato@email.com" />
             </div>
 
             <div class="col-2">
@@ -102,8 +105,7 @@
                 rows="5"
                 id="mensagem"
                 name="mensagem"
-                placeholder="O que você precisa?"
-              ></textarea>
+                placeholder="O que você precisa?"></textarea>
             </div>
 
             <button class="botao col-2">Enviar Mensagem</button>
@@ -117,8 +119,7 @@
       <div class="lojas-item">
         <img
           src="./img/lojas/rj.jpg"
-          alt="Mapa marcando o endereço em Rua Ali Perto, 42 - Rio de Janeiro - RJ"
-        />
+          alt="Mapa marcando o endereço em Rua Ali Perto, 42 - Rio de Janeiro - RJ" />
         <div class="lojas-conteudo">
           <h3 class="font-1-xl">Rio de Janeiro</h3>
           <div class="lojas-dados font-2-s cor-8">
@@ -139,8 +140,7 @@
       <div class="lojas-item">
         <img
           src="./img/lojas/sp.jpg"
-          alt="Mapa marcando o endereço em Rua Ali Perto, 33 - São Paulo - SP"
-        />
+          alt="Mapa marcando o endereço em Rua Ali Perto, 33 - São Paulo - SP" />
         <div class="lojas-conteudo">
           <h3 class="font-1-xl">São Paulo</h3>
           <div class="lojas-dados font-2-s cor-8">
@@ -203,5 +203,6 @@
         </p>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>

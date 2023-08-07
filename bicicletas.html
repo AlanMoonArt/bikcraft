@@ -4,15 +4,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <title>Bicicletas | Bikcraft</title>
     <meta name="description" content="Termos e Condições." />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preload" href="./css/style.min.css" as="style" />
+    <link rel="stylesheet" href="./css/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
 
   <body id="bicicletas">
@@ -72,7 +77,10 @@
         <div class="bicicletas-conteudo">
           <h2 class="font-1-xl cor-0">Magic Might</h2>
           <p class="font-2-s cor-5">
-            Com extremo conforto, a Magic Might é a melhor opção para aqueles que desejam levesa durante suas pedaladas. O modelo de quadro Magic Slim é o mais leve do acervo Bikcraft, a tornando facilmente transportável.
+            Com extremo conforto, a Magic Might é a melhor opção para aqueles
+            que desejam levesa durante suas pedaladas. O modelo de quadro Magic
+            Slim é o mais leve do acervo Bikcraft, a tornando facilmente
+            transportável.
           </p>
           <ul class="font-1-m cor-5">
             <li>
@@ -97,7 +105,9 @@
       <div class="bicicletas-conteudo">
         <h2 class="font-1-xl">Nebula Cosmic</h2>
         <p class="font-2-s cor-8">
-          A Nebula Cosmic é perfeita para ciclistas de primeira viagem. Extremamente confortável e econômica por conta dos amortecedores e do novo motor Cosmic-GO.
+          A Nebula Cosmic é perfeita para ciclistas de primeira viagem.
+          Extremamente confortável e econômica por conta dos amortecedores e do
+          novo motor Cosmic-GO.
         </p>
         <ul class="font-1-m cor-8">
           <li><img src="./img/icones/eletrica.svg" alt="" />Motor Elétrico</li>
@@ -153,5 +163,6 @@
         </p>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
